@@ -1,0 +1,122 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:bisque;
+  }
+  
+  .container {
+    position: relative;
+    width: 1700px;
+    height: 30px;
+  }
+
+   h1{
+    position: absolute;
+    top: 10px; 
+    font-size: 50px;
+}
+h2{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+
+#player1{
+    position: absolute;
+    top: 670px;
+    left: 120px;
+}
+#player2{
+    position: absolute;
+    top: 670px;
+    left: 615px;
+}
+
+#equal{
+    top: 440px;
+    left: 900px;
+    font-size: 100px;
+}
+
+#win{
+    top: 503px;
+    left: 1150px;
+    font-size: 50px;
+    color: rgb(236, 25, 36);
+}
+
+  
+  .sh1 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    font-size: 6vmin;
+    color: rgb(201, 23, 23);
+    border-color: black;
+    cursor: pointer;
+
+  }
+
+  .sh2 {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    font-size: 6vmin;
+    color: rgb(201, 23, 23);
+    border-color: black;
+    cursor: pointer;
+
+  }
+  
+   .btn1 {
+    top: 20px;
+    left: 120px;
+  }
+  
+  .btn2 {
+    top: 200px;
+    left: 30px;
+  }
+  
+  .btn3 {
+    top: 200px;
+    left: 210px;
+  } 
+
+  .btn4{
+    position: absolute;
+    left: 610px;
+    top: 90px;
+    display: none;
+  }
+ 
+.star{
+  background-color: rgb(49, 227, 49);
+  width: 100px;
+  height: 25px;
+  border-radius: 25px;
+  position: absolute;
+  top: 325px;
+  left: 118px;
+}
+.hide{
+  display: none;
+}
+
+.wind{
+  display: none;
+}
+
+.sign1{
+  display: none;
+}
